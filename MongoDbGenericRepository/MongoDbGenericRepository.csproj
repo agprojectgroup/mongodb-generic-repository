@@ -24,8 +24,8 @@
 		<DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
 	</PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="MongoDB.Driver" Version="2.25.0" />
-  </ItemGroup>
+	<ItemGroup>
+	  <PackageReference Include="MongoDB.Driver" Version="2.30.0" />
+	</ItemGroup>
 
 </Project>
