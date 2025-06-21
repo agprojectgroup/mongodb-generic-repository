@@ -361,7 +361,6 @@ namespace MongoDbGenericRepository.DataAccess.Read
         #endregion Min / Max
 
         #region Sum TKey
-
         /// <inheritdoc />
         public virtual async Task<int> SumByAsync<TDocument, TKey>(
             Expression<Func<TDocument, bool>> filter,
